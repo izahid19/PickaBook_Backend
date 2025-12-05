@@ -18,7 +18,6 @@ const otpRateLimiter = rateLimit({
   message: { error: 'Too many OTP requests. Please wait 2 minutes before trying again.' },
   standardHeaders: true,
   legacyHeaders: false,
-  keyGenerator: (req) => req.ip, // Rate limit by IP
 });
 
 // Auth routes
