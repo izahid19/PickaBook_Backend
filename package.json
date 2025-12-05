@@ -1,0 +1,22 @@
+{
+  "name": "pickabook-backend",
+  "version": "1.0.0",
+  "description": "Backend for Pickabook assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@getbrevo/brevo": "^3.0.1",
+    "@google/genai": "^1.31.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.0.1",
+    "multer": "^1.4.5-lts.1",
+    "replicate": "^0.29.1"
+  }
+}
